@@ -5,7 +5,6 @@ html{
     background: -webkit-radial-gradient(circle, #fff, #ccc);   
     background: -o-radial-gradient(circle, #fff, #ccc);   
     background: -moz-radial-gradient(circle, #fff, #ccc);
-    font-family: cursive;
     font-size: 15px;
 }
 
