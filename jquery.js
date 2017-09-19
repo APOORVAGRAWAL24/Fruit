@@ -2,7 +2,7 @@ var playing = false;
 var score;
 var trialsLeft;
 var step;
-var action; //used for setInterval
+var action; 
 var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'peach', 'pear', 'watermelon'];
 $(function(){
     
@@ -31,7 +31,6 @@ $("#startreset").click(function(){
 $("#fruit1").mouseover(function(){
     score++;
     $("#scorevalue").html(score);
-    $("#slicesound")[0].play();
     clearInterval(action);
     $("#fruit1").hide("explode", 500);  
     setTimeout(startAction, 500);
